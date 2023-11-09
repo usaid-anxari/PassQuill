@@ -1,9 +1,9 @@
 const passwordBox = document.getElementById("password");
-const passowrdLenght = 12;
+let passowrdLenght = 12;
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const number = '0123456789'
-const symbles = ':;"<>^&*()_+=%$#@!`~{[}]|?';
+const symbles = ':;"<>^&*()_+=%$#@!`~{[}]|?'; 
 let allChars = upperCase + lowerCase + number + symbles; 
 
 
